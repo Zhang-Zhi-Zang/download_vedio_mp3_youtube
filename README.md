@@ -21,7 +21,9 @@ exp: python3 mp3_convert.py --url 'https://www.youtube.com/watch?v=pO8O4q3Tl2M&l
 
 
 use --l download the playlist vedio
+
 exp: python3 mp3_convert.py --l 'https://www.youtube.com/watch?v=pO8O4q3Tl2M&list=PLMDSacPyadX3BmHhYzgoYYLAL0my0srKk&index=13' -o '/Users/zhang/Downloads/YouTube/test' 
 
 use --mp3 download the mp3 file 
+
 exp: python3 mp3_convert.py --l 'https://www.youtube.com/watch?v=pO8O4q3Tl2M&list=PLMDSacPyadX3BmHhYzgoYYLAL0my0srKk&index=13' -o '/Users/zhang/Downloads/YouTube/test' --mp3 Ture
